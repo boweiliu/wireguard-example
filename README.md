@@ -2,6 +2,8 @@
 
 see https://www.wireguard.com/quickstart/
 
+use gen.sh to generate public and private keys in the current directory
+
 
 /etc/wg0.conf on a server (with static IP):
 
@@ -39,7 +41,7 @@ SaveConfig = false
 # server
 PublicKey = 4321432143214321432143214321432143214321432= # you use wg and the 1234 private key to generate this
 AllowedIPs = 10.88.88.1/32 # has to match the server address above. here /32 is mandatory
-Endpoint = 54.153.119.16:51820 # ip should be the actual ip of the server (curl zx2c4.com/ip); port should be the ListenPort above
+Endpoint = 1.1.1.1:51820 # ip should be the actual ip of the server (curl zx2c4.com/ip); port should be the ListenPort above
 PersistentKeepalive = 5
 ```
 
