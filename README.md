@@ -2,6 +2,8 @@
 
 see https://www.wireguard.com/quickstart/
 
+and https://gist.github.com/chrisswanda/88ade75fc463dcf964c6411d1e9b20f4
+
 use gen.sh to generate public and private keys in the current directory
 
 
